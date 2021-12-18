@@ -11,7 +11,10 @@ class Footer extends StatelessWidget {
     return Container(
       height: 350,
       width: MediaQuery.of(context).size.width,
-      color: customPurpleColor,
+      decoration:const BoxDecoration(
+          gradient: LinearGradient(
+              colors: [customPurpleColor, coolPurpleColor]),
+          color: Colors.redAccent),
       child: Center(child:  Text("Footer",style: GoogleFonts.montserrat(
         textStyle: Theme.of(context).textTheme.headline4,
         fontWeight: FontWeight.w500,

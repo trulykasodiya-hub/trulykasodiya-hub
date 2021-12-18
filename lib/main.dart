@@ -28,7 +28,9 @@ class MyApp extends StatelessWidget {
       dark: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: darkBgColor,
         brightness: Brightness.dark,
+
         textTheme: const TextTheme(
+
           headline1: TextStyle(fontSize: 70.0, fontWeight: FontWeight.bold,color: Colors.white),
           headline5: TextStyle(fontSize: 14.0, fontWeight: FontWeight.w500,color: Colors.white),
           headline4: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w500,color: Colors.white),

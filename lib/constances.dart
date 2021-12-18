@@ -33,7 +33,15 @@ const darkBgColor = Color(0xFF121212);
 /*
 custom color
  */
-
-const customPurpleColor = Color(0xff4501c4);
+//
+// const customPurpleColor = Color(0xff4501c4);
+const customPurpleColor = Color(0xff0e0eac);
+const coolPurpleColor = Color(0xff0312ff);
 const customDarkPurpleColor = Color(0xFF00005C);
 
+// About Me Text
+const homePageAboutText1 = '''“I've worked in software engineering for my entire 2-year career, \nand my commitment to critical thinking and attention to detail have gotten me to where I am today: a senior software engineer for First Technology.\n\nI have a passion for processes, and I'm an experienced team leader who typically manages 10 developers at any given time.''';
+const aboutPageText2 = '''“I've worked in software engineering for my entire 2-year career, and my commitment to critical thinking and attention to detail have gotten me to where I am today: a senior software engineer for First Technology. I have a passion for processes, and I'm an experienced team leader who typically manages 10 developers at any given time.
+                         
+“Prior to my senior role, I worked as a software engineer for First Technology and a programmer for Mobile First. Because I've already held all the other positions in this field, I have keen insight into what it takes to run a successful project. My career goal is to move into management as a CTO, and I know this role would help me hone my leadership skills.”
+                          ''';

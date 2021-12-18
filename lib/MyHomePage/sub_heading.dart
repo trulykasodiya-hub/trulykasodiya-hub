@@ -7,7 +7,7 @@ import '../responsive.dart';
 Widget subHeading (context) {
   return DefaultTextStyle(
     style: TextStyle(
-      fontSize:  Responsive.isMobile(context) ? 16 : 32.0,
+      fontSize:  Responsive.isMobile(context) ? 16 : 25.0,
       color: customDarkPurpleColor,
       fontWeight: FontWeight.bold,
     ),
